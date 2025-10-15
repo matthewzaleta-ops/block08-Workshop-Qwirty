@@ -1,5 +1,5 @@
 body {
-  font-family: ;
+  font-family: roboto;
 }
 
 header {
@@ -25,4 +25,9 @@ nav > a:hover {
   color: white;
   text-decoration: underline;
   transition: 0s;
+}
+nav > cartContents {
+<span class="material-symbols-outlined">
+shopping_cart
+</span>
 }
