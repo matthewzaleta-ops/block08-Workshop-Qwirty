@@ -1,0 +1,39 @@
+h1 {
+  color: #44b;
+}
+
+.divSearchBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+div > h1 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+}
+
+div > a {
+  background-color: rgb(212, 8, 8);
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5rem;
+}
+div > a:hover {
+  text-decoration: underline;
+}
+
+div > form {
+  margin: 0.4px;
+  border: 1rem solid white;
+  padding: 1px;
+  flex-grow: 2;
+  display: flex;
+}
+form > input {
+  flex-grow: 2;
+}

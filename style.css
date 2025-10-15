@@ -1,0 +1,28 @@
+body {
+  font-family: ;
+}
+
+header {
+  background-color: #44b;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+nav > a:last-child {
+  border-right: none;
+}
+
+nav > a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0s;
+}
