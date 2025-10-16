@@ -1,0 +1,23 @@
+footer {
+  background-color: #44b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+.footerDiv {
+}
+div > a {
+  display: flex;
+  align-items: column;
+}
+.customerCare {
+  display: flex;
+  flex-direction: column;
+}
+.footerItems {
+  background-color: #44b;
+  margin: 0;
+}
