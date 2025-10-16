@@ -37,3 +37,12 @@ div > form {
 form > input {
   flex-grow: 2;
 }
+.buttonColor {
+  background-color: #44b;
+  color: white;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+input {
+}
